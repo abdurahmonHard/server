@@ -13,7 +13,7 @@ connectDatabase();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:4000', 'https://ecommerce-frontend-gamma-swart.vercel.app'],
+  origin: ['http://localhost:4000', 'https://ecommerce-frontend-gamma-swart.vercel.app','https://dashboard-two-beta-60.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
