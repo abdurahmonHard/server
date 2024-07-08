@@ -5,7 +5,6 @@ import Product from "./Models/ProductModel.js";
 import products from "./data/Products.js";
 import asyncHandler from "express-async-handler";;
 
-
 const ImportData = express.Router();
 
 ImportData.post(
